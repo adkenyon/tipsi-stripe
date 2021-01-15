@@ -1,9 +1,9 @@
+> ℹ️ Interested in future React Native libraries for the Stripe API? Fill our this interest form to keep up to date: [Stripe React Native Interest Form](https://app.smartsheet.com/b/form/b1a1053eaac7496eb0ae7892ebd68973)
+
 # tipsi-stripe
 
 [![npm version](https://img.shields.io/npm/v/tipsi-stripe.svg?style=flat-square)](https://www.npmjs.com/package/tipsi-stripe)
 [![build status](https://img.shields.io/travis/tipsi/tipsi-stripe/master.svg?style=flat-square)](https://travis-ci.org/tipsi/tipsi-stripe)
-
-React Native Stripe binding for iOS/Android platforms
 
 ## Strong Customer Authentication (SCA) support
 ### PaymentIntents & SetupIntents
@@ -12,14 +12,13 @@ Have no fear, it's on its way!
 
 It takes to much resources to release stable version but you can use beta release (and some companies already have been using it since september). It has support for SCA-ready API's and support for some newer features.
 
-Latest beta release is: [8.0.0-beta.10](/CHANGELOG.md)
+Latest beta release is: [8.0.0-beta.11](/CHANGELOG.md)
 
 To upgrade:
 
 ```
 # package.json
-"tipsi-stripe": "^8.0.0-beta.10"
-
+"tipsi-stripe": "^8.0.0-beta.11"
 # Make sure you are running Stripe 19.0.1 or later
 # ios/Podfile
 pod 'Stripe', '~> 19.0.1'
@@ -44,12 +43,9 @@ https://tipsi.github.io/tipsi-stripe/docs/index.html
 ```sh
 # help us with docs!
 npm install docusaurus
-
 # to run docs locally
 npm run start-docs
-
 # and open http://localhost:3000/tipsi-stripe/docs/index.html
-
 # upgrade existing docs website in repo
 npm run build-docs
 ```
@@ -71,7 +67,6 @@ https://tipsi.github.io/tipsi-stripe/
 ```sh
 # help us to upgrade docs locally
 npm run start-docs
-
 # upgrade existing docs website in repo
 npm run build-docs
 ```
@@ -84,3 +79,4 @@ npm run build-docs
 ## License
 
 tipsi-stripe is available under the MIT license. See the [LICENSE](https://github.com/tipsi/tipsi-stripe/tree/master/LICENSE) file for more info.
+So Long, and Thanks for All the Fish!
